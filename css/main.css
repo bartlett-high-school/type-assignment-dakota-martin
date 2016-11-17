@@ -1,5 +1,24 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'crimson_textsemibold';
+    src: url('../fonts/crimsontext-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/crimsontext-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'fjallaoneregular';
+    src: url('../fonts/fjallaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fjallaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Start the CSS*/
 body {
@@ -22,29 +41,29 @@ body {
 }
 
 h1 {
-
+	font-family: 'crimson_textsemibold';
 }
 
 h2 {
-
+	font-family: 'crimson_textsemibold';
 }
 
 h3 {
-
+	font-family: 'crimson_textsemibold';
 }
 
 h4 {
-
+	font-family: 'crimson_textsemibold';
 }
 
 h5 {
-
+	font-family: 'crimson_textsemibold';
 }
 
 h6 {
-
+	font-family: 'crimson_textsemibold';
 }
 
 p {
-
+	font-family: 'fjallaoneregular'
 }
